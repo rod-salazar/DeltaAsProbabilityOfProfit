@@ -10,10 +10,10 @@ I wanted to see in practice how closely Delta actually tracked the true probabil
 
 Each trial of this experiment goes like this:
 
-Choose a random instance in time in the last year (08/03/2015–07/29/2016).
-Choose any available SPY option with 45 days of expiration or less and record it’s delta.
-Look ahead to the future data and record whether this option expires in the money.
-I repeat this trial 1 million times for call options and again 1 million times for put options.
+- Choose a random instance in time in the last year (08/03/2015–07/29/2016).
+- Choose any available SPY option with 45 days of expiration or less and record it’s delta.
+- Look ahead to the future data and record whether this option expires in the money.
+- I repeat this trial 1 million times for call options and again 1 million times for put options.
 
 Using deltas between 0 and 100, I bucketed the trials into aggregate buckets by placing deltas [0.5, 1.5) into bucket 1, [1.5, 2.5) into bucket 2, and so on. Then I proceeded to plot the average delta of each bucket against the observed probability of expiring in the money within my data-set’s time range.
 
