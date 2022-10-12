@@ -1,6 +1,6 @@
 # DeltaAsProbabilityOfProfit
 
-Backup from Medium.com.
+Backup from my Medium.com.
 
 I've been playing around with options for the last few months and recently I purchased my first batch of historical CBOE options data. This is my first piece of research with the data-set.
 
